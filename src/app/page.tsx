@@ -16,7 +16,7 @@ const altTexts = {
 
 export default function Home() {
   return (
-    <div className="font-[family-name:var(--font-geist-sans)] h-full grid justify-center mt-48">
+    <div className="font-[family-name:var(--font-geist-sans)] grid justify-center mt-48">
       <div className="flex gap-16">
         <PostMedia
           accesibleAlt={altTexts.cafe.accessibleAlt}
